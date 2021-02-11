@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #808280;
+
+}
+
+.menu{
+    height: 75px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.centro{
+    width: 100%;
+    background-color: blueviolet;
+    height: calc(100vh - 225px);
+    position: relative;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #808280;
+    position: relative;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    background-image: url('assets/Logo@2x.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    top: 22.5px;
+    left: 22.5px;
+    position: relative;
+}
+.linkMenu{
+    color: #272F57;
+    font-family: 'gilroylight';
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.submenu{
+    position: absolute;
+    right: 22.5px;
+    top: 27px;
+}
+
+@media screen and (max-width: 720px) {
+
+    .centro{
+        height: 70vw;
+    }
+
+    .footer{
+        height: auto;
+    }
+
+}
