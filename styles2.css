@@ -78,7 +78,6 @@ body{
 .centro{
 
     width: 100%;
-    background-color: red;
     height: auto;
     position: relative;
 }
@@ -171,6 +170,7 @@ body{
     display: inline;
     float: left;
     width: 33%;
+
     text-align: left;
     color: #fff;
     font-size: 12px;
@@ -179,7 +179,7 @@ body{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 820px) {
     .centro{
         display: flex;
         width: 100%;
@@ -193,6 +193,23 @@ body{
     .footer{
         height: auto;
     }
+
+
+
+    .bottomSpace{
+        width: 90%;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        /*display:block;*/
+    }
+
+    .bottomCenter{
+        width: 100%;
+
+    }
+
+
+
 
     .centerButton{
         top: auto;
