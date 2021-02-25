@@ -20,6 +20,10 @@ use Illuminate\Http\Request;
     return view('login');
 });*/
 
+Route::get('/hola', function () {
+    return view('hola');
+});
+
 Route::get('/', function () {
     return view('home');
 });
