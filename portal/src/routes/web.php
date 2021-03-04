@@ -20,14 +20,14 @@ use Illuminate\Http\Request;
     return view('login');
 });*/
 
-Route::get('/hola', function () {
-    return view('hola');
-});
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
 });
 
+Route::get('/cotizador', function () {
+    return view('cotizador');
+});
 
 //Route::get('terminosycondiciones', 'App\Http\Controllers\EstaticosController@terminosycondiciones');
 //Route::post('ajaxPrelogin', 'App\Http\Controllers\LoginController@prelogin')->name('ajaxPrelogin');

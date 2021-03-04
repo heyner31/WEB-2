@@ -16,7 +16,6 @@
 
 <body>
 
-   HOLA
     @include('layout/footer')
 
 <script src="{{env("APP_URL")}}jquery/jquery-min.js"></script>
