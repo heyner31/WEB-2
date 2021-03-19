@@ -3,6 +3,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('',views.vista,name='vista'),
-    path('dos',views.vista2,name='vista2'),
+    path('',views.vista,name='index'),
+    path('cotizador',views.vista2,name='cotizador'),
 ]

@@ -16,12 +16,12 @@ from django.contrib.auth.hashers import make_password, check_password
 def vista(request):
     
     #https://docs.djangoproject.com/en/3.0/ref/templates/language/#templates
-    return render(request, 'clase.html', {'title': "Bumblebee" })
+    return render(request, 'index.html', {'title': "Bumblebee" })
 
 
 def vista2(request):
     
     #https://docs.djangoproject.com/en/3.0/ref/templates/language/#templates
-    return render(request, 'dos.html', {'title': "Bumblebee" })  
+    return render(request, 'cotizador.html', {'title': "Bumblebee" })  
 
 
